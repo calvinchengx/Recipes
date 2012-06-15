@@ -1,5 +1,5 @@
 //
-//  RecipesAddViewController.h
+//  RecipeAddViewController.h
 //  Recipes
 //
 //  Created by Calvin Cheng on 15/6/12.

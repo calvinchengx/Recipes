@@ -37,4 +37,13 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"AddRecipe"]) {
+        UINavigationController *navigationController = segue.destinationViewController;
+        RecipeAddViewController *controller = (RecipeAddViewController *)navigationController.topViewController;
+        controller.delegate = self;
+    }
+}
+
 @end

@@ -77,7 +77,7 @@
                     </navigationItem>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1293" y="407"/>
+            <point key="canvasLocation" x="1413" y="407"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r0w-Ev-nIa">
@@ -111,17 +111,6 @@
             <point key="canvasLocation" x="-163" y="73"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="RecipeAddViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecipeAddViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="cancel"/>
-            </relationships>
-        </class>
-        <class className="RecipesViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RecipesViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
