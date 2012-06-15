@@ -31,4 +31,10 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)recipeAddViewControllerDidCancel:(RecipeAddViewController *)controller
+{
+    NSLog(@"add view controller did cancel executed");
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

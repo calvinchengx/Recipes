@@ -15,6 +15,8 @@
 		3E1FB50E158B00490086DD2E /* RecipesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB50D158B00490086DD2E /* RecipesAppDelegate.m */; };
 		3E1FB511158B00490086DD2E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FB50F158B00490086DD2E /* MainStoryboard.storyboard */; };
 		3E1FB514158B00490086DD2E /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB513158B00490086DD2E /* RecipesViewController.m */; };
+		3E1FB51C158B06F40086DD2E /* RecipeAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB51B158B06F40086DD2E /* RecipeAddViewController.m */; };
+		3E1FB51F158B0A8B0086DD2E /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FB51E158B0A8B0086DD2E /* Recipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		3E1FB4FD158B00490086DD2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E1FB4FF158B00490086DD2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E1FB501158B00490086DD2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3E1FB505158B00490086DD2E /* Recipes-Info.plist */ = {isa = PBXFileReference; path = "Recipes-Info.plist"; sourceTree = "<group>"; };
+		3E1FB505158B00490086DD2E /* Recipes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipes-Info.plist"; sourceTree = "<group>"; };
 		3E1FB507158B00490086DD2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E1FB509158B00490086DD2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E1FB50B158B00490086DD2E /* Recipes-Prefix.pch */ = {isa = PBXFileReference; path = "Recipes-Prefix.pch"; sourceTree = "<group>"; };
-		3E1FB50C158B00490086DD2E /* RecipesAppDelegate.h */ = {isa = PBXFileReference; path = RecipesAppDelegate.h; sourceTree = "<group>"; };
+		3E1FB50B158B00490086DD2E /* Recipes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipes-Prefix.pch"; sourceTree = "<group>"; };
+		3E1FB50C158B00490086DD2E /* RecipesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipesAppDelegate.h; sourceTree = "<group>"; };
 		3E1FB50D158B00490086DD2E /* RecipesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesAppDelegate.m; sourceTree = "<group>"; };
 		3E1FB510158B00490086DD2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3E1FB512158B00490086DD2E /* RecipesViewController.h */ = {isa = PBXFileReference; path = RecipesViewController.h; sourceTree = "<group>"; };
+		3E1FB512158B00490086DD2E /* RecipesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipesViewController.h; sourceTree = "<group>"; };
 		3E1FB513158B00490086DD2E /* RecipesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
+		3E1FB51A158B06F40086DD2E /* RecipeAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeAddViewController.h; sourceTree = "<group>"; };
+		3E1FB51B158B06F40086DD2E /* RecipeAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeAddViewController.m; sourceTree = "<group>"; };
+		3E1FB51D158B0A8B0086DD2E /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		3E1FB51E158B0A8B0086DD2E /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 				3E1FB50F158B00490086DD2E /* MainStoryboard.storyboard */,
 				3E1FB512158B00490086DD2E /* RecipesViewController.h */,
 				3E1FB513158B00490086DD2E /* RecipesViewController.m */,
+				3E1FB51A158B06F40086DD2E /* RecipeAddViewController.h */,
+				3E1FB51B158B06F40086DD2E /* RecipeAddViewController.m */,
+				3E1FB51D158B0A8B0086DD2E /* Recipe.h */,
+				3E1FB51E158B0A8B0086DD2E /* Recipe.m */,
 				3E1FB504158B00490086DD2E /* Supporting Files */,
 			);
 			path = Recipes;
@@ -164,6 +174,8 @@
 				3E1FB50A158B00490086DD2E /* main.m in Sources */,
 				3E1FB50E158B00490086DD2E /* RecipesAppDelegate.m in Sources */,
 				3E1FB514158B00490086DD2E /* RecipesViewController.m in Sources */,
+				3E1FB51C158B06F40086DD2E /* RecipeAddViewController.m in Sources */,
+				3E1FB51F158B0A8B0086DD2E /* Recipe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				3E1FB519158B00490086DD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RecipeAddViewController.h"
+//#import "Recipe.h"
 
-@interface RecipesViewController : UIViewController
+
+@interface RecipesViewController : UITableViewController <RecipeAddViewControllerDelegate, UINavigationControllerDelegate>
+
 
 @end
